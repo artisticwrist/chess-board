@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section{
+    height: 100vh;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chess-board{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+}
+
+.row{
+    background: rgb(197, 154, 97);
+    height: 20%;
+    width: 100%;
+    display: flex;
+}
+
+.coloumn{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black-color{
+    background: brown;
+}
+
+
